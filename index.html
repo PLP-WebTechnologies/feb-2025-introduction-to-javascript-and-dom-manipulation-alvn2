@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Manipulation Demo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .container {
+            margin: 20px 0;
+        }
+        button {
+            padding: 10px 20px;
+            margin: 5px;
+            cursor: pointer;
+        }
+        .item {
+            background-color: #f0f0f0;
+            padding: 10px;
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>DOM Manipulation Demo</h1>
+    </header>
+
+    <main class="container">
+        <section>
+            <h2 id="changeableText">Original Text</h2>
+            <button id="textBtn">Change Text</button>
+            <button id="styleBtn">Toggle Style</button>
+        </section>
+
+        <article id="itemList">
+            <h3>Dynamic Item List</h3>
+            <p>Click buttons to add or remove items</p>
+            <div id="itemsContainer">
+                <div class="item">Item 1</div>
+            </div>
+            <button id="addBtn">Add Item</button>
+            <button id="removeBtn">Remove Last Item</button>
+        </article>
+    </main>
+
+    <footer>
+        <p>Learning JavaScript & DOM</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
